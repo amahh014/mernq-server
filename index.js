@@ -22,8 +22,3 @@ mongoose.connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true })
     .then ((res) => {
         console.log(`Server running at ${res.url}`);
     });
-
-server.listen({ port: 5050 })
-    .then(res => {
-        console.log(`Server running at ${res.url}`)
-    })
